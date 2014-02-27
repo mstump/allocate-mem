@@ -1,13 +1,25 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# cmake output
+CMakeFiles
+CMakeCache.txt
+CMakeScripts
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+cmake_uninstall.cmake
+install_manifest.txt
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# build files
+build/
+main
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# editor
+*.swp
+*~
+.#*
+#*
+
+# demo data
+tmp
+
+# OSX
+.DS_Store
